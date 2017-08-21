@@ -1,12 +1,18 @@
 # EmailGenerator
 Python script to generate email addresses from names and domain name
 
+### Run
+```python emailGenerator.py -d DOMAIN_NAME -f INPUT_FILE -m METHOD -o OUTPUT_FILE```
+
+Example:
+```python emailGenerator.py -d "feltsecure.com" -f names.txt -m "fnln" -o output.txt```
+
 ### Command Line Arguments
 Email generator takes 4 arguments:
-1. A file which contains names line by line.
-2. A domain name
-3. An output file (default is emaillistoutput.txt)
-4. A email creation method (default is "fn.ln") which will be one of the followings:
+1. (-f) A file which contains names line by line.
+2. (-d) A domain name
+3. (-o) An output file (default is emaillistoutput.txt)
+4. (-m) A email creation method (default is "fn.ln") which will be one of the followings:
 
     - ```"fn"``` for ```firstname@domain```
     - ```"ln"``` for ```lastname@domain```
@@ -54,12 +60,6 @@ Email generator takes 4 arguments:
     - ```"fimi_ln"``` for ```firstinitialmiddleinitial_lastname@domain```
     - ```"fn_mi_ln"``` for ```firstname_middleinitial_lastname@domain```
     - ```"fn_mn_ln"``` for ```firstname_middlename_lastname@domain```
-    
-### Run
-```python emailGenerator.py -d DOMAIN_NAME -f INPUT_FILE -m METHOD -o OUTPUT_FILE```
-
-Example:
-```python emailGenerator.py -d "feltsecure.com" -f names.txt -m "fnln" -o output.txt```
 
 ### Python Version
 2.7.13
