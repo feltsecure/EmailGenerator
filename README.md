@@ -1,5 +1,5 @@
 # EmailGenerator
-Python script to generate email addresses from names and domain name
+Python script to generate email addresses from names and the domain
 
 ### Run
 ```python emailGenerator.py -d DOMAIN_NAME -f INPUT_FILE -m METHOD -o OUTPUT_FILE```
