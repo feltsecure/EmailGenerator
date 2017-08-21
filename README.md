@@ -63,3 +63,6 @@ Example:
 
 ### Python Version
 2.7.13
+
+### References
+This script is inspired by [Email Permutator](https://docs.google.com/spreadsheets/d/17URMtNmXfEZEW9oUL_taLpGaqTDcMkA79J8TRw4xnz8/edit#gid=0)
