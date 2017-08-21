@@ -16,9 +16,9 @@ Email generator takes 4 arguments:
 
     - ```"fn"``` for ```firstname@domain```
     - ```"ln"``` for ```lastname@domain```
-    - ```"fnln"``` for ```first_namelast_name@domain```
+    - ```"fnln"``` for ```firstnamelast_name@domain```
     - ```"fn.ln"``` for ```firstname.lastname@domain```
-    - ```"filn"``` for ```firstinitiallast_name@domain```
+    - ```"filn"``` for ```firstinitiallastname@domain```
     - ```"fi.ln"``` for  ```firstinitial.lastname@domain```
     - ```"fnli"``` for ```firstnamelastinitial@domain```
     - ```"fn.li"``` for ```firstname.lastinitial@domain```
