@@ -5,7 +5,7 @@ Python script to generate email addresses from names and the domain
 ```python emailGenerator.py -d DOMAIN_NAME -f INPUT_FILE -m METHOD -o OUTPUT_FILE```
 
 Example:
-```python emailGenerator.py -d "feltsecure.com" -f names.txt -m "fnln" -o output.txt```
+```python emailGenerator.py -d feltsecure.com -f names.txt -m fnln -o output.txt```
 
 ### Command Line Arguments
 Email generator takes 4 arguments:
